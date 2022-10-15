@@ -95,41 +95,41 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kAV-ht-iCP">
                                 <rect key="frame" x="45" y="198" width="300" height="226"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="City name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hyc-Ff-1Ye">
-                                        <rect key="frame" x="173.66666666666666" y="25" width="90.999999999999972" height="32"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="City name" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="Hyc-Ff-1Ye">
+                                        <rect key="frame" x="146" y="25" width="140.66666666666663" height="32"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="32" id="3gU-aW-pv1"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="20"/>
+                                        <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="30"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Country" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7bB-xM-yte">
-                                        <rect key="frame" x="115" y="146" width="70.333333333333314" height="23"/>
-                                        <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="20"/>
+                                        <rect key="frame" x="107" y="146" width="86.333333333333314" height="34"/>
+                                        <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="24"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" text="Data" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8V8-TV-0ZP">
-                                        <rect key="frame" x="129" y="177" width="42.333333333333343" height="23"/>
-                                        <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="20"/>
+                                        <rect key="frame" x="129.66666666666666" y="188" width="40.666666666666657" height="28.333333333333343"/>
+                                        <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="20"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="bkq-lI-MQE">
-                                        <rect key="frame" x="8" y="8" width="100" height="100"/>
+                                        <rect key="frame" x="8" y="8" width="130" height="130"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="100" id="sET-10-2pS"/>
-                                            <constraint firstAttribute="height" constant="100" id="wlY-cN-KcM"/>
+                                            <constraint firstAttribute="width" constant="130" id="6B3-GV-zIs"/>
+                                            <constraint firstAttribute="height" constant="130" id="s9m-pC-mgm"/>
                                         </constraints>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Temp" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bYr-O2-Cr5">
-                                        <rect key="frame" x="189.33333333333334" y="76" width="60" height="32"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Temp" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bYr-O2-Cr5">
+                                        <rect key="frame" x="203" y="79" width="60" height="32"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="32" id="1Mf-Je-Uvy"/>
                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="60" id="nLV-Mo-zZC"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="20"/>
+                                        <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="24"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -138,14 +138,14 @@
                                 <constraints>
                                     <constraint firstItem="7bB-xM-yte" firstAttribute="centerX" secondItem="8V8-TV-0ZP" secondAttribute="centerX" id="2gn-oB-guP"/>
                                     <constraint firstItem="bkq-lI-MQE" firstAttribute="leading" secondItem="kAV-ht-iCP" secondAttribute="leadingMargin" id="8Fd-BM-bsr"/>
-                                    <constraint firstItem="bYr-O2-Cr5" firstAttribute="bottom" secondItem="bkq-lI-MQE" secondAttribute="bottom" id="K7x-Gz-81L"/>
+                                    <constraint firstItem="bYr-O2-Cr5" firstAttribute="bottom" secondItem="bkq-lI-MQE" secondAttribute="bottom" constant="-27" id="K7x-Gz-81L"/>
                                     <constraint firstItem="7bB-xM-yte" firstAttribute="centerX" secondItem="kAV-ht-iCP" secondAttribute="centerX" id="R4g-gz-P4W"/>
-                                    <constraint firstItem="bYr-O2-Cr5" firstAttribute="top" secondItem="kAV-ht-iCP" secondAttribute="top" constant="76" id="b23-8R-Weq"/>
-                                    <constraint firstItem="bYr-O2-Cr5" firstAttribute="top" secondItem="Hyc-Ff-1Ye" secondAttribute="bottom" constant="19" id="eFs-S7-YcB"/>
-                                    <constraint firstItem="Hyc-Ff-1Ye" firstAttribute="leading" secondItem="bkq-lI-MQE" secondAttribute="trailing" constant="65.666666666666629" id="fJ2-fE-ev5"/>
+                                    <constraint firstItem="bYr-O2-Cr5" firstAttribute="top" secondItem="kAV-ht-iCP" secondAttribute="top" constant="79" id="b23-8R-Weq"/>
+                                    <constraint firstItem="bYr-O2-Cr5" firstAttribute="top" secondItem="Hyc-Ff-1Ye" secondAttribute="bottom" constant="22" id="eFs-S7-YcB"/>
                                     <constraint firstItem="8V8-TV-0ZP" firstAttribute="top" secondItem="7bB-xM-yte" secondAttribute="bottom" constant="8" symbolic="YES" id="hJ1-Rc-ibK"/>
-                                    <constraint firstItem="bYr-O2-Cr5" firstAttribute="centerX" secondItem="Hyc-Ff-1Ye" secondAttribute="centerX" id="i1X-1A-JJZ"/>
-                                    <constraint firstItem="7bB-xM-yte" firstAttribute="top" secondItem="bYr-O2-Cr5" secondAttribute="bottom" constant="38" id="nd1-md-x7q"/>
+                                    <constraint firstItem="bYr-O2-Cr5" firstAttribute="centerX" secondItem="Hyc-Ff-1Ye" secondAttribute="centerX" constant="16.666666666666686" id="i1X-1A-JJZ"/>
+                                    <constraint firstItem="7bB-xM-yte" firstAttribute="top" secondItem="bYr-O2-Cr5" secondAttribute="bottom" constant="35" id="nd1-md-x7q"/>
+                                    <constraint firstItem="Hyc-Ff-1Ye" firstAttribute="leading" secondItem="bkq-lI-MQE" secondAttribute="trailing" constant="8" symbolic="YES" id="q7e-il-zhs"/>
                                 </constraints>
                             </view>
                         </subviews>
